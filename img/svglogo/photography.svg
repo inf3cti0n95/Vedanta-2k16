@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 9 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9-Copy-6" sketch:type="MSArtboardGroup">
+            <!-- <rect id="Rectangle-14" fill="#282828" sketch:type="MSShapeGroup" x="0" y="0" width="600" height="600"></rect> -->
+            <g id="Triangle-14-+-Triangle-14-Copy-+-Rectangle-31" sketch:type="MSLayerGroup" transform="translate(33.000000, 33.000000)">
+                <polygon id="Triangle-14" stroke="#FFFFFF" stroke-width="18" sketch:type="MSShapeGroup" transform="translate(267.000000, 249.200000) scale(1, -1) translate(-267.000000, -249.200000) " points="267 26.7 489.5 471.7 44.5 471.7 "></polygon>
+                <polygon id="Triangle-14-Copy" stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" transform="translate(267.000000, 267.000000) scale(1, -1) translate(-267.000000, -267.000000) " points="267 0 534 534 0 534 "></polygon>
+                <path d="M185.064924,86.33 L183.427362,86.33 C174.038859,86.33 166.43,93.9443533 166.43,103.337134 L166.43,208.162866 C166.43,217.557247 174.039978,225.17 183.427362,225.17 L350.572638,225.17 C359.961141,225.17 367.57,217.555647 367.57,208.162866 L367.57,103.337134 C367.57,93.9427525 359.960022,86.33 350.572638,86.33 L246.162582,86.33 L240.3,70.31 L192.24,70.31 L185.064924,86.33 L185.064924,86.33 Z M267,203.81 C291.085138,203.81 310.61,184.285138 310.61,160.2 C310.61,136.114862 291.085138,116.59 267,116.59 C242.914862,116.59 223.39,136.114862 223.39,160.2 C223.39,184.285138 242.914862,203.81 267,203.81 Z M267,196.69 C287.152871,196.69 303.49,180.352871 303.49,160.2 C303.49,140.047129 287.152871,123.71 267,123.71 C246.847129,123.71 230.51,140.047129 230.51,160.2 C230.51,180.352871 246.847129,196.69 267,196.69 Z M344.875,113.03 C349.544568,113.03 353.33,109.244568 353.33,104.575 C353.33,99.9054324 349.544568,96.12 344.875,96.12 C340.205432,96.12 336.42,99.9054324 336.42,104.575 C336.42,109.244568 340.205432,113.03 344.875,113.03 Z" id="Rectangle-31" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

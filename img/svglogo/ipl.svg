@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 9 Copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9-Copy-7" sketch:type="MSArtboardGroup">
+            <!-- <rect id="Rectangle-14" fill="#282828" sketch:type="MSShapeGroup" x="0" y="0" width="600" height="600"></rect> -->
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(33.000000, 33.000000)">
+                <g id="Rectangle-40-+-Rectangle-40-Copy-+-Rectangle-40-Copy-2" transform="translate(297.260000, 198.470000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-40" x="17.8" y="0" width="40.05" height="6.23" rx="22"></rect>
+                    <rect id="Rectangle-40-Copy" x="8.01" y="8.9" width="59.63" height="6.23" rx="22"></rect>
+                    <rect id="Rectangle-40-Copy-2" x="0" y="17.8" width="75.65" height="6.23" rx="22"></rect>
+                </g>
+                <g id="Rectangle-39-+-Group" transform="translate(248.099330, 150.821613) rotate(59.000000) translate(-248.099330, -150.821613) translate(194.599330, 48.321613)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <path d="M64.1060377,170.470254 L64.1060377,54.1724528 L43.1490566,54.1724528 L43.1490566,170.915486 C38.3927954,174.298351 35.2901887,179.854821 35.2901887,186.135943 C35.2901887,196.444234 43.6467093,204.800755 53.955,204.800755 C64.2632907,204.800755 72.6198113,196.444234 72.6198113,186.135943 C72.6198113,179.570933 69.23041,173.79756 64.1060377,170.470254 Z" id="Rectangle-39"></path>
+                    <g id="Group" transform="translate(1.000000, 0.890000)">
+                        <rect id="Rectangle-34" x="19.8822642" y="6.78415094" width="65.490566" height="44.5335849"></rect>
+                        <rect id="Rectangle-35" x="89.3022642" y="6.78415094" width="5.89415094" height="44.5335849" rx="23"></rect>
+                        <rect id="Rectangle-35-Copy" x="99.1258491" y="0.89" width="5.89415094" height="56.3218868" rx="23"></rect>
+                        <rect id="Rectangle-35-Copy-3" x="10.7135849" y="6.78415094" width="5.89415094" height="44.5335849" rx="23"></rect>
+                        <rect id="Rectangle-35-Copy-2" x="0.89" y="0.89" width="5.89415094" height="56.3218868" rx="23"></rect>
+                    </g>
+                </g>
+                <polygon id="Triangle-14" stroke="#FFFFFF" stroke-width="18" sketch:type="MSShapeGroup" transform="translate(267.000000, 249.200000) scale(1, -1) translate(-267.000000, -249.200000) " points="267 26.7 489.5 471.7 44.5 471.7 "></polygon>
+                <polygon id="Triangle-14-Copy" stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" transform="translate(267.000000, 267.000000) scale(1, -1) translate(-267.000000, -267.000000) " points="267 0 534 534 0 534 "></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

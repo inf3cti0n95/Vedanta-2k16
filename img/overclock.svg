@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="2048px" height="2048px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Overclock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="126.36261%" id="radialGradient-1">
+            <stop stop-color="#2F2F2F" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Overclock" sketch:type="MSArtboardGroup">
+          <!-- <rect id="Rectangle-4-Copy" fill="url(#radialGradient-1)" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="1024"></rect> -->
+
+           <polygon id="Triangle-14" stroke="#FFFFFF"  stroke-width="18" sketch:type="MSShapeGroup" transform="translate(512.000000, 513.000000) scale(1, -1) translate(-512.000000, -513.000000) " points="512 263 762 763 262 763 "></polygon>
+            <polygon id="Triangle-14-Copy" stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" transform="translate(512.000000, 533.000000) scale(1, -1) translate(-512.000000, -533.000000) " points="512 233 812 833 212 833 "></polygon>
+            <g id="Oval-55-+-Oval-55-Copy-2" sketch:type="MSLayerGroup" transform="translate(411.000000, 304.000000)" fill="#FFFFFF">
+                <path d="M175.129109,144.987114 C179.978092,139.070091 184.364642,132.635183 188.205386,125.706298 C210.692058,85.1392674 208.904532,37.678832 187.640607,0.0569074066 L187.640607,0.0569074066 C189.893519,24.8208196 184.997647,50.4997207 172.033631,73.8874244 C161.393053,93.0835362 146.56321,108.48818 129.316929,119.593008 L175.129109,144.987114 L175.129109,144.987114 Z" id="Oval-55" sketch:type="MSShapeGroup"></path>
+                <path d="M29.4679016,144.987114 C24.6189178,139.070091 20.2323684,132.635183 16.3916245,125.706298 C-6.09504778,85.1392674 -4.30752172,37.678832 16.9564031,0.0569074066 L16.9564031,0.0569074066 C14.7034908,24.8208196 19.599363,50.4997207 32.5633788,73.8874244 C43.2039574,93.0835362 58.0337999,108.48818 75.2800817,119.593008 L29.4679016,144.987114 L29.4679016,144.987114 Z" id="Oval-55-Copy-2" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="Rectangle-53-+-Path-130-+-Rectangle-50-+-Rectangle-51-+-Rectangle-51-Copy-+-Rectangle-51-Copy-3-+-Rectangle-51-Copy-2-+-Group" sketch:type="MSLayerGroup" transform="translate(409.000000, 347.000000)">
+                <rect id="Rectangle-53" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="207" height="186" rx="431"></rect>
+                <g id="Rectangle-50-+-Rectangle-51-+-Rectangle-51-Copy-+-Rectangle-51-Copy-3-+-Rectangle-51-Copy-2-+-Group" transform="translate(28.000000, 30.000000)" sketch:type="MSShapeGroup">
+                    <path d="M103.259824,1.3245614 L47.7401756,1.3245614 L47.7401756,1.3245614 C44.5599561,0.461248776 41.2098138,0 37.75,0 C17.0841345,0 0.331140351,16.4564809 0.331140351,36.7565789 C0.331140351,57.056677 17.0841345,73.5131579 37.75,73.5131579 C51.1074217,73.5131579 62.8301601,66.6381207 69.4510358,56.2938596 L81.5489642,56.2938596 C88.1698399,66.6381207 99.8925783,73.5131579 113.25,73.5131579 C133.915866,73.5131579 150.66886,57.056677 150.66886,36.7565789 C150.66886,16.4564809 133.915866,0 113.25,0 C109.790186,0 106.440044,0.461248776 103.259824,1.3245614 Z" id="Rectangle-50" fill="#D8D8D8"></path>
+                    <g id="Rectangle-51-+-Rectangle-51-Copy-+-Rectangle-51-Copy-3-+-Rectangle-51-Copy-2" transform="translate(13.907895, 16.557018)" fill="#868686">
+                        <g id="Rectangle-51-+-Rectangle-51-Copy">
+                            <rect id="Rectangle-51" x="12.5833333" y="0" width="11.2587719" height="12.5833333"></rect>
+                            <path d="M-3.15303339e-13,23.8421053 L-3.14613938e-13,12.5833333 L12.5833333,12.5833333 L12.5833333,23.8421053 L-3.15303339e-13,23.8421053 L-3.15303339e-13,23.8421053 Z" id="Rectangle-51-Copy"></path>
+                        </g>
+                        <g id="Rectangle-51-Copy-3-+-Rectangle-51-Copy-2" transform="translate(23.763158, 24.263158) scale(-1, -1) translate(-23.763158, -24.263158) translate(11.763158, 11.763158)">
+                            <rect id="Rectangle-51-Copy-3" x="12.5833333" y="1" width="11.2587719" height="12.5833333"></rect>
+                            <path d="M-1.64313008e-13,24.8421053 L-1.63623607e-13,13.5833333 L12.5833333,13.5833333 L12.5833333,24.8421053 L-1.64313008e-13,24.8421053 L-1.64313008e-13,24.8421053 Z" id="Rectangle-51-Copy-2"></path>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(97.355263, 16.557018)" fill="#868686">
+                        <ellipse id="Oval-51" cx="19.8684211" cy="6.62280702" rx="6.62280702" ry="6.62280702"></ellipse>
+                        <ellipse id="Oval-51-Copy" cx="6.62280702" cy="18.5438596" rx="6.62280702" ry="6.62280702"></ellipse>
+                        <ellipse id="Oval-51-Copy-2" cx="33.1140351" cy="18.5438596" rx="6.62280702" ry="6.62280702"></ellipse>
+                        <ellipse id="Oval-51-Copy-3" cx="19.8684211" cy="30.4649123" rx="6.62280702" ry="6.62280702"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 9 Copy 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9-Copy-8" sketch:type="MSArtboardGroup">
+            <!-- <rect id="Rectangle-14" fill="#282828" sketch:type="MSShapeGroup" x="0" y="0" width="600" height="600"></rect> -->
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(33.000000, 33.000000)">
+                <polygon id="Triangle-14" stroke="#FFFFFF" stroke-width="18" sketch:type="MSShapeGroup" transform="translate(267.000000, 249.200000) scale(1, -1) translate(-267.000000, -249.200000) " points="267 26.7 489.5 471.7 44.5 471.7 "></polygon>
+                <polygon id="Triangle-14-Copy" stroke="#FFFFFF" stroke-width="4" sketch:type="MSShapeGroup" transform="translate(267.000000, 267.000000) scale(1, -1) translate(-267.000000, -267.000000) " points="267 0 534 534 0 534 "></polygon>
+                <path d="M344.876076,199.284618 C330.958438,228.286095 301.317636,248.31 267,248.31 C219.321258,248.31 180.67,209.658742 180.67,161.98 C180.67,114.301258 219.321258,75.65 267,75.65 C267.243016,75.65 267.485798,75.6510041 267.728341,75.6530084 L269.203075,172.610944 L344.876076,199.284618 Z M348.661514,133.902874 C342.498586,115.974375 330.597745,100.714278 315.152108,90.3157009 L348.661514,133.902875 Z" id="Oval-49" opacity="0.328125" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-49-Copy" stroke="#FFFFFF" stroke-width="17" sketch:type="MSShapeGroup" cx="267" cy="161.98" r="86.33"></circle>
+                <text id="1" sketch:type="MSTextLayer" font-family="Arial Rounded MT Bold" font-size="137.169998" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="219.17" y="210.78">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

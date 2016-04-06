@@ -1,0 +1,532 @@
+@import "bourbon/bourbon"
+@import "neat/neat"
+
+
+@font-face
+    font-family: lombok
+    src: url(../fonts/Lombok.otf)
+@font-face
+    font-family: aquatico
+    src: url(../fonts/Aquatico-Regular.otf)
+@font-face
+    font-family: blanka
+    src: url(../fonts/Blanka-Regular.otf)
+
+
+
+$eventimgsize : 750px
+
+body
+  +size(100%)
+  padding: 0px
+  margin: 0px
+  font-family:'Ubuntu', sans-serif
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizelegibility
+a
+  outline: none
+
+#landing-page
+  background: url(../img/landingBG-min.jpg)
+  background-size:cover
+  +size(100%)
+  padding: 0px
+  margin: 0px
+
+svg
+  +size(100%)
+
+#logoPath
+  fill:none
+  stroke:rgba(0,0,0,0.7)
+  stroke-width:3
+
+#anim-logo
+  position: absolute
+  top:50%
+  left: 50%
+  margin-left: -25vw
+  margin-top: -25vh
+  height: 50vh
+  width: 50vw
+
+#anim-logo
+  stroke-dashoffset: 1600px
+  stroke-dasharray: 1600px
+
+#anim-letters
+  font-family: 'lombok', sans-serif
+  padding-left: 20px
+  font-size: 98px
+  position: absolute
+  top: 50%
+  left: 44%
+  opacity: 0
+  text-transform: uppercase
+
+#cedept
+  padding-left: 20px
+  font-size: 30px
+  position: absolute
+  bottom: 2%
+  left: 50%
+  transform: translateX(-50%)
+  opacity: 1
+  display: block
+  width: 700
+  text-transform: uppercase
+  text-align: center
+  p
+    -webkit-font-smoothing: antialiased
+    text-rendering: optimizelegibility
+    font-family:'Aquatico', sans-serif
+    padding: 0px
+    margin: 0px
+a
+  color:inherit
+
+.event1
+  background-image: url(../img/overclockBG-min.jpg)
+  background-size: cover
+  .image
+    top:50%
+    background-image: url(../img/overclock.svg)
+
+.event2
+  background-image: url(../img/quizBG-min.jpg)
+  background-size: cover
+  .image
+    background-image: url(../img/quiz.svg)
+
+.event3
+  background-image: url(../img/onthespotBG-min.jpg)
+  background-size: cover
+  .image
+    background-image: url(../img/onthespot.svg)
+
+.event4
+  background-image: url(../img/treasurehuntBG-min.jpg)
+  background-size: cover
+  .image
+    background-image: url(../img/treasurehunt.svg)
+
+.image
+  top:-50%
+  left:25%
+  background-size: contain
+  background-repeat: no-repeat
+  position: absolute
+  margin-top: -($eventimgsize/2)
+  margin-left: -($eventimgsize/2)
+  height: $eventimgsize
+  width: $eventimgsize
+
+.pinWrapper
+  height: 100vh
+  width: 100vw
+  position: relative
+  transform: translateZ(0)
+
+.event
+  position: relative
+  overflow: hidden
+  height: 100%
+
+.scrollmagic-pin-spacer
+    position: absolute !important
+    z-index: 0
+    clip: rect(auto, auto, auto, auto)
+
+// Navigation
+$navwidth : (100/7)
+.nav
+  position: fixed
+  padding: 0px
+  margin: 0px
+  display: block
+  width: 100%
+  background-color: rgba(0,0,0,0.5)
+  height: 100px
+  z-index: 5
+  ul
+    margin: 0 auto
+    list-style: none
+    margin: 0px auto
+    li
+      float: left
+      font-family: aquatico,sans-serif
+      width: 14.28%
+      text-align: center
+      line-height: 100px
+      color: #ccc
+      font-size: 13px
+      a
+        text-decoration: none
+
+.modal
+  position: fixed
+  top:0
+  left:0
+  +size(100%)
+  z-index: 10
+
+.is-notvisible
+  visibility: hidden
+
+$contenttop: 45%
+$contentleft: 70%
+
+.event-content1
+  position: absolute
+  left:$contentleft
+  +size(35%)
+  top:55%
+  transform: translate3d(-50%,-50%,0)
+  z-index:3
+
+.event-content2,.event-content3,.event-content4
+  position:absolute
+  left:$contentleft
+  top:-($contenttop)
+  +size(35%)
+  transform: translate3d(-50%,-50%,0)
+  z-index:3
+
+
+
+$h1fontsize:5em
+$contentfontsize:2em
+
+.content
+  h1
+    color:#fff
+    display: inline
+    width: 30%
+    font-family: aquatico
+    font-size: $h1fontsize
+    -webkit-font-smoothing:antialiased
+    text-rendering: optimizelegibility
+    margin:0px
+  p
+    color:#ccc
+    font-size: $contentfontsize
+    -webkit-font-smoothing:antialiased
+    text-rendering: optimizelegibility
+
+.tabs
+  position: relative
+  padding: 0px
+  margin: 0px
+  display: block
+  width: 100%
+  background-color: rgba(0,0,0,0.5)
+  z-index: 5
+  ul
+    margin: 0 auto
+    list-style: none
+    margin: 0px auto
+    height: 25vh
+    li
+      float: left
+      font-family: aquatico,sans-serif
+      width: 25%
+      text-align: center
+      color: #ccc
+      font-size: 16px
+      a
+        text-decoration: none
+
+.details
+  width: 100%
+  height: 75vh
+  background-color: transparentize(red, 0.8)
+  p
+    margin: 0px
+
+.close
+  position: fixed
+  top:10px
+  right:10px
+  z-index: 15
+  background-size: contain
+  +size(75px)
+  background-image: url(../img/close.svg)
+  cursor: pointer
+  &:hover
+    background-color: transparentize(#fff, 0.95)
+    border-radius:50%
+
+
+
+// HIE
+@font-face
+  font-family: 'icomoon'
+  src: url('../fonts/icomoon/icomoon.eot')
+  src: url('../fonts/icomoon/icomoon.eot?#iefix') format("embedded-opentype"), url('../fonts/icomoon/icomoon.woff') format("woff"), url('../fonts/icomoon/icomoon.ttf') format("truetype"), url('../fonts/icomoon/icomoon.svg#icomoon') format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+.btn
+  border: none
+  font-family: inherit
+  font-size: inherit
+  color: inherit
+  background: none
+  cursor: pointer
+  padding: 25px 80px
+  display: inline-block
+  margin: 15px 30px
+  text-transform: uppercase
+  letter-spacing: 1px
+  font-weight: 700
+  outline: none
+  position: relative
+  -webkit-transition: all 0.3s
+  -moz-transition: all 0.3s
+  transition: all 0.3s
+  &:after
+    content: ''
+    position: absolute
+    z-index: -1
+    -webkit-transition: all 0.3s
+    -moz-transition: all 0.3s
+    transition: all 0.3s
+
+.icon-arrow-right:before
+  content: "\27a4"
+
+.event-content1
+  .btn-3
+    background:transparentize( #1E0733, 0.5)
+    color: #fff
+    &:hover
+      background: lighten(#1E0733, 0.5)
+    &:active
+      background: darken(#1E0733,0.5)
+      top: 2px
+    &:before
+      position: absolute
+      height: 100%
+      left: 0
+      top: 0
+      line-height: 3
+      font-size: 140%
+      width: 60px
+
+.event-content2
+  .btn-3
+    background: transparentize(#3D0312, 0.5)
+    color: #fff
+    &:hover
+      background: lighten(#3D0312, 0.5)
+    &:active
+      background: darken(#3D0312,0.5)
+      top: 2px
+    &:before
+      position: absolute
+      height: 100%
+      left: 0
+      top: 0
+      line-height: 3
+      font-size: 140%
+      width: 60px
+
+.event-content3
+  .btn-3
+    background: transparentize(#80370E, 0.5)
+    color: #fff
+    &:hover
+      background: lighten(#80370E, 0.5)
+    &:active
+      background: darken(#80370E,0.5)
+      top: 2px
+    &:before
+      position: absolute
+      height: 100%
+      left: 0
+      top: 0
+      line-height: 3
+      font-size: 140%
+      width: 60px
+
+.event-content4
+  .btn-3
+    background: transparentize(#0C5122, 0.5)
+    color: #fff
+    &:hover
+      background: lighten(#0C5122, 0.5)
+    &:active
+      background: darken(#0C5122,0.5)
+      top: 2px
+    &:before
+      position: absolute
+      height: 100%
+      left: 0
+      top: 0
+      line-height: 3
+      font-size: 140%
+      width: 60px
+
+.btn-3e
+  padding: 25px 120px 25px 60px
+  overflow: hidden
+  &:before
+    left: auto
+    right: 10px
+    z-index: 2
+  &:after
+    width: 30%
+    height: 200%
+    background: rgba(255, 255, 255, 0.1)
+    z-index: 1
+    right: 0
+    top: 0
+    margin: -5px 0 0 -5px
+    -webkit-transform-origin: 0 0
+    -webkit-transform: rotate(-20deg)
+    -moz-transform-origin: 0 0
+    -moz-transform: rotate(-20deg)
+    -ms-transform-origin: 0 0
+    -ms-transform: rotate(-20deg)
+    transform-origin: 0 0
+    transform: rotate(-20deg)
+  &:hover:after
+    width: 40%
+
+
+
+#footer
+  position: relative
+  height: 500px
+  width: 100%
+  background-color: #111
+  .foot1,.foot2
+    padding: 10px
+    padding-left: 100px
+    padding-top: 50px
+    display: inline-block
+    height: 400px
+    width: 100%
+    +span-columns(6)
+    // border-right: 1px solid transparentize(#fff, 0.7)
+    // border-radius: 1px
+    p
+    color:#ccc
+    line-height: 25px
+
+  // .foot2
+  //   padding: 10px
+  //   display: inline-block
+  //   height: 400px
+  //   width: 100%
+  //   +span-columns(5)
+  //   border-radius: 1px
+  #foot
+    height: 100px
+    position: absolute
+    bottom: 0%
+    width: 100%
+    background-color: #222
+
+.vvplogo
+ margin-top: 50px
+ height: 100%
+ width: 50%
+ display: inline-block
+ float: left
+ background-image: url(../img/logo.png)
+ background-repeat: no-repeat
+.fb
+  display: inline-block
+  background-image: url(../img/fblogo.svg)
+  background-size: contain
+  line-height: 50px
+  +size(50px)
+  cursor: pointer
+  text-indent:60px
+  font-size: 25px
+  &:hover
+    background-color: transparentize(#fff, 0.95)
+
+
+
+.heart
+  display: inline
+  +size(100px)
+  position: absolute
+  left: 56%
+  top: 60%
+  transform: translate(-50%, -50%)
+  background: url(../img/heart.png) no-repeat
+  background-position: 0 0
+  cursor: pointer
+  animation: fave-heart 1s steps(28)
+  &:hover
+    background-position: -2800px 0
+    transition: background 1s steps(28)
+
+
+@keyframes fave-heart
+  0%
+    background-position: 0 0
+
+  100%
+    background-position: -2800px 0
+
+.modal
+  .modalcontent
+    margin-top: 50px
+    font-family: 'Ubuntu',sans-serif
+    color:#ccc
+    padding:15px
+    font-size: 20px
+    .coordinator
+      float:right
+      padding-left: 1em
+      border-left: 1px solid transparentize(#fff, 0.7)
+    .eventco
+      float:right
+      padding-right: 15px
+
+
+
+  // p
+  //   position: absolute
+  //   font-family: 'Ubuntu',sans-serif
+  //   top:45%
+  //   left:50%
+  //   transform: translate3d(-50%,-50%,0)
+  //   +outer-container
+  //   color:#fff
+  //   text-align: justify
+  //   word-spacing: 5px
+  //   font-size: 20px
+  //   width: 75%
+  // .eventco
+  //   position:
+  //   top:75%
+  //   left:55%
+  //   transform: translate3d(-50%,-50%,0)
+  //   text-align: left
+  //   line-height: 50px
+  //   margin-top:-5px
+  //   .coordinator
+  //     display: inline-block
+  //     border-left: 1px solid transparentize(#fff, 0.7)
+  //     text-indent: 50px
+  //     text-align: right
+
+
+#foot
+  line-height: 100%
+  padding-top: 7px
+  p
+    position: absolute
+    color:#ccc
+    left:50%
+    transform: translateX(-50%)
+
+
+.disablescroll
+  overflow:hidden
